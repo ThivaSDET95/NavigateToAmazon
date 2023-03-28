@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [navigate amazon]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="navigate amazon(failed)">
+    <classes>
+      <class name="amazon.testAmazon">
+        <methods>
+          <include name="testMin"/>
+        </methods>
+      </class> <!-- amazon.testAmazon -->
+    </classes>
+  </test> <!-- navigate amazon(failed) -->
+</suite> <!-- Failed suite [navigate amazon] -->
